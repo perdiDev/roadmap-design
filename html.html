@@ -13,17 +13,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body class="background">
-    <header class="container">
-        <div class="relative">
-            <div class="fixed top-0 left-0 right-0">
-                <div class="flex w-full justify-center py-4">
-                    <div class="py-2 px-4 card-color rounded-lg">
-                        <h1 class="text-white-1 font-bold text-lg">Roadmap<span class="text-red-600">Id</span></h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+  <header class="fixed top-0 left-0 z-10 flex w-full navbar-fixed">
+      <div class="container">
+          <div class="relative">
+              <div class="flex w-full justify-center py-4">
+                  <div class="py-2 px-4 card-color rounded-lg">
+                      <h1 class="text-white-1 font-bold text-lg">Roadmap<span class="text-red-600">Id</span></h1>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </header>
 
     <!-- Hero -->
     <section id="main" class="container">
@@ -44,6 +44,14 @@
                             <p class="text-detail-source">Web programing</p>
                         </div>
                     </a>
+                    <a href="#" class="flex space-x-2">
+                        <div class="button-icon">
+                            <img src="./dist/img/icon/tailwindcss.svg" alt="tailwindcss" class="fill-white-1">
+                        </div>
+                        <div class="detail-source">
+                            <p class="text-detail-source">Web programing unpas</p>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -56,5 +64,7 @@
             </div>
         </div>
     </footer>
+
+    <script src="./dist/js/script.js"></script>
 </body>
 </html>
